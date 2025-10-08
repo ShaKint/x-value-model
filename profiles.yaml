@@ -1,0 +1,10 @@
+﻿profiles:
+  V1:
+    weights: { gap_to_ma200: 0.45, debt_cash: 0.25, fcf_positive: 0.20, rsi_neutral: 0.05, beat_ratio: 0.05 }
+    filters: { debt_cash_max: 1.5, must_profitable: true }
+  C1:
+    weights: { gap_to_ma200: 0.15, debt_cash: 0.20, fcf_positive: 0.30, rsi_neutral: 0.10, beat_ratio: 0.25 }
+    filters: { debt_cash_max: 2.0, must_profitable: true }
+  G1:
+    weights: { gap_to_ma200: 0.10, debt_cash: 0.10, fcf_positive: 0.20, rsi_neutral: 0.10, beat_ratio: 0.50 }
+    filters: { debt_cash_max: 3.0, must_profitable: false }
