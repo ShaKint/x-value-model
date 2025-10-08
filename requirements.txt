@@ -1,0 +1,6 @@
+pandas
+pyyaml
+requests
+streamlit
+yfinance>=0.2.30
+numpy

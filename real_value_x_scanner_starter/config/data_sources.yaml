@@ -1,0 +1,31 @@
+yahoo:
+  enabled: true
+
+fmp:
+  enabled: true
+  api_key: ${FMP_API_KEY}
+
+finnhub:
+  enabled: false
+  api_key: ${FINNHUB_TOKEN}
+
+polygon:
+  enabled: false
+  api_key: ${POLYGON_KEY}
+
+edgar:
+  enabled: true
+
+tipranks:
+  enabled: false
+  username: ${TIPRANKS_USER}
+  password: ${TIPRANKS_PASS}
+
+morningstar:
+  enabled: false
+  token: ${MSTAR_TOKEN}
+
+tikr:
+  enabled: false
+  username: ${TIKR_USER}
+  password: ${TIKR_PASS}

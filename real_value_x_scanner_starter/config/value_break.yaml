@@ -1,0 +1,12 @@
+rules:
+  price_above_ma200_pct: 40
+  cash_lt_debt_quarters: 1
+  rev_yoy_drop_pct: 25
+  fcf_yoy_drop_pct: 20
+  rd_drop_pct: 15
+  dilution_12m_pct: 10
+actions:
+  - type: "flag"
+    severity: "warning"
+  - type: "recommend_review"
+    severity: "review"
